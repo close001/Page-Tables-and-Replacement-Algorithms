@@ -1,5 +1,6 @@
 # Page-Tables-and-Replacement-Algorithms
-**INTRODUCTION**
+**INTRODUCTION**\
+This repository contains programs that simulate the operation of page tables and page replacement. _pagetable.c_ implements address tranlation and paging and _fifo_ implement page replacement algorithms. 
 
 **SETUP**\
 Go to _traceprogs_ folder then compile the trace programs and generate the traces using the command `make`

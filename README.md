@@ -8,11 +8,11 @@ Paging is a memory management scheme by which a computer stores and retrieves da
 - _valgrind_ must be installed to run _runit_ file.
 
 **SETUP**
-- Go to the folder where you downloaded the files
-- Use the command `make` to generate executables
-- Go to _traceprogs_ folder
-- Set _runit_ and _fastslim.py_ files' permission such that you can execute these files (use _chmod_ command) 
-- Generate the traces using the command `make traces`
+1. Go to the folder where you downloaded the files
+2. Use the command `make` to generate executables
+3. Go to _traceprogs_ folder
+4. Set _runit_ and _fastslim.py_ files' permission such that you can execute these files (use _chmod_ command) 
+5. Generate the traces using the command `make traces`
 
 **EXECUTING THE PROGRAM**\
 The main driver for the memory simulator, _sim.c_ reads memory reference traces. For each line in the trace, the program asks for the simulated physical address that corresponds to the given virtual address by calling _find_physpage_, and then reads from that location. If the access type is a write ("M" for modify or "S" for store), it will also write to the location.

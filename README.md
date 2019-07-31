@@ -3,7 +3,7 @@
 Paging is a memory management scheme by which a computer stores and retrieves data from secondary storage for use in main memory. In this scheme, the operating system retrieves data from secondary storage in same-size blocks called pages. This repository contains programs that simulate the operation of paging using a page table and page replacement algorithms. _pagetable.c_ implements virtual-to-physical address translation and demands paging using a two-level page table and page remplacement algorithms which are implemented in _fifo.c_, _lru.c_, _clock.c_, _rand.c_ and _opt.c_.
 
 **SETUP**\
-* Note that the program is run on linux. Also, it must be able to compile and run c files. 
+Note that the program is run on linux. Also, it must be able to compile and run c files.\
 Go to _traceprogs_ folder then compile the trace programs and generate the traces using the command `make`
 
 **EXECUTING THE PROGRAM**\

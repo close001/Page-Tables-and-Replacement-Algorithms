@@ -4,7 +4,7 @@ Paging is a memory management scheme by which a computer stores and retrieves da
 
 **SOME NOTES ABOUT RUNNING THE PROGRAM**
 - The instruction on how to use this prgoram is done in linux terminal. However, the steps should be similar in other OSes.
-- C and Python compilers must be installed.
+- Your system must be able to run C and Python files.
 - _valgrind_ must be installed to run _runit_ file.
 
 **SETUP**

@@ -8,6 +8,8 @@ Paging is a memory management scheme by which a computer stores and retrieves da
 - _valgrind_ must be installed to run _runit_ file.
 
 **SETUP**
+- Go to the folder where you downloaded the files
+- Use the command `make` to generate executables
 - Go to _traceprogs_ folder
 - Set _runit_ and _fastslim.py_ files' permission such that you can execute these files (use _chmod_ command) 
 - Generate the traces using the command `make traces`

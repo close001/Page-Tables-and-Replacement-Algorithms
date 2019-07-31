@@ -21,7 +21,7 @@ The simulator is exectued as
 
 where memory size and swapfile size are the number of frames of simulated physical memory and the number of pages that can be stored in the swapfile respectively. The swapfile size should be as large as the number of unique virtual pages in the trace.
 
-Exmaple command:\
+Example command:\
 `./sim -f traceprogs/tr-simpleloop.ref -m 50 -s 10000 -a rand`
 
 

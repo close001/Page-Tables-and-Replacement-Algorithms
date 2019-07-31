@@ -8,6 +8,7 @@ Paging is a memory management scheme by which a computer stores and retrieves da
 - _valgrind_ must be installed to run _runit_ file.
 
 **SETUP**
+0. Open up your command line 
 1. _cd_ into the directory where you downloaded the files
 2. Use the command `make` to generate executables
 3. _cd_ into _traceprogs_ directory

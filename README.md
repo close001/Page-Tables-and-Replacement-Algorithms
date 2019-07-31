@@ -17,11 +17,11 @@ The main driver for the memory simulator, _sim.c_ reads memory reference traces.
 
 The simulator is exectued as
 
-`./sim -f <tracefile> -m <memory size> -s <swapfile size> -a <replacement algorithm>`
+->`./sim -f <tracefile> -m <memory size> -s <swapfile size> -a <replacement algorithm>`<-
 
 where memory size and swapfile size are the number of frames of simulated physical memory and the number of pages that can be stored in the swapfile respectively. The swapfile size should be as large as the number of unique virtual pages in the trace.
 
 Exmaple command:\
-`./sim -f traceprogs/tr-simpleloop.ref -m 50 -s 10000 -a rand`
+->`./sim -f traceprogs/tr-simpleloop.ref -m 50 -s 10000 -a rand`<-
 
 
